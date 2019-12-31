@@ -21,7 +21,7 @@ use Symfony\Component\Routing\Annotation\Route;
 class DefaultController extends AbstractController
 {
     /**
-     * @Route("/", defaults={}, name="homepage")
+     * @Route("/admin", defaults={}, name="homepage")
      */
     public function index()
     {

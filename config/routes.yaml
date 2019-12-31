@@ -8,9 +8,11 @@ controllers:
         _locale: '%locale%'
 
 home:
-    path: /
+    path: /admin
     controller: App\Controller\DefaultController::index
-
+front:
+    path: /front
+    controller: App\Controller\FrontController::index
 fos_user_security:
     prefix: /{_locale}
     resource: "@FOSUserBundle/Resources/config/routing/security.xml"
